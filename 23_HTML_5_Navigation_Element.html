@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Nav Element</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0px;
+        }
+        nav ul {
+        	list-style-type: none;
+        	padding: 0px;
+        	margin: none;
+        }
+        nav{
+        	background-color: black; 
+        	overflow: hidden;
+        }
+        nav ul li{
+        	float: left;/*hides the background color*/
+        }
+        nav ul li a{
+        	text-decoration: none;
+        	color: white;
+        	font-size: 30px;
+        	padding: 10px 25px;
+        	display: inline-block;/* mandatory*/
+        }
+        nav ul li a:hover{
+        	background-color: seagreen;
+        }
+        nav ul li a.active{
+        	background-color: forestgreen;
+        }
+
+    </style>
+</head>
+<body>
+
+   <!-- HTML Nav Element -->
+   <nav>
+   	<ul>
+   		<li>
+   			<a href="#" class="active"><i class="fa fa-home"></i>Home</a>
+
+   		</li>                             /*font awesome tags */
+   		<li>
+   			<a href="#"><i class="fa fa-id-card"></i>About Us</a>
+   		</li>
+   		   		<li>
+   			<a href="#"><i class="fa fa-envelop"></i>Contact Us</a>
+   		</li> 
+   		<li>
+   			<a href="#"><i class="fa fa-graduation-cap"></i>Careers</a>
+   		</li>
+   		<li>
+   			<a href="#"><i class="fa fa-book"></i>Courses</a>
+
+   		</li>
+   	</ul>
+   </nav>
+
+</body>
+</html>

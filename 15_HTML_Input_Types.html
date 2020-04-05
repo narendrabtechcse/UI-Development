@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Input Types</title>
+    <style>
+    div{
+        font-family: "Comic Sans MS" sans-serif;
+        background-color: forestgreen;
+        color:white;
+        padding:10px;
+        width: 400px;
+        margin: 5px;
+        font-size: 20px;
+    }
+
+        body{
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <form>
+        <label>User Name</label>
+        <input type="text">
+    </form>
+</div>
+<div>
+    <form>
+        <label>Password</label>
+        <input type="password">
+    </form>
+</div>
+<div >
+    <form>
+        
+        <label for="username">User Name</label>
+        <input type="text" id="username"><br><br>
+        <label for="password">password</label>
+        <input type="password" id="password"><br><br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </form>
+
+</div>
+<div>
+    <form>
+        <label>Is HTML Easy</label>
+        <input type="radio" value="yes" name="easy">YES
+        <input type="radio" value="no" name="easy">NO
+    </form>
+</div>
+<div>
+    <form>
+        <label>Select Your Hobbies</label>
+        <input type="checkbox" name="" value="eating">Eating
+        <input type="checkbox" name="" value="sleeping">Sleeping
+    </form>
+</div>
+<div>
+    <form>
+        <label>UserName</label>
+        <input type="text" name="">
+        <input type="button" value="Send">
+    </form>
+</div>
+  <!--color-->
+<div>
+    <form>
+        <label>Select A color</label>
+        <input type="color" name="">
+    </form>
+</div>
+<!--date-->
+<div>
+    <form>
+        <label>Select A Date</label>
+        <input type="date" name="">
+    </form>
+</div>
+<!--date and time-->
+<div>
+    <form>
+        <label>Select Date And Time</label>
+        <input type="datetime-local" name="">
+    </form>
+</div>
+<div>
+    <form>
+        <label>Enter A Email</label>
+        <input type="email" name="">
+        <input type="submit" value="submit">
+    </form>
+</div>
+<div>
+    <form>
+        <label>Enter A Month</label>
+        <input type="month" name="">
+    </form>
+</div>
+<div>
+    <form>
+        <label>Select Your Age</label>
+        <input type="number" min="23" max="40" name="">
+    </form>
+</div>
+<div>
+    <form>
+       <label>Select A Range</label>
+       0<input type="range" min="0" max="100" name="" id="range">100
+       <input type="submit" value="submit" onclick="alert(document.getElementById('range').value)" name="">
+    </form>
+</div>
+<div>
+    <form>
+        <label>Search Here</label>
+        <input type="search" name="">
+    </form>
+</div>
+<div>
+    <form>
+        <label>Enter Your Website URL</label>
+        <input type="url" name="">
+        <input type="submit" value="Submit" name="">
+    </form>
+</div>
+<div>
+    <form>
+        <label>Select A Week</label>
+        <input type="week" name="">
+    </form>
+</div>
+<div>
+    <form>
+        <label>Select A Time</label>
+        <input type="time" id="time" name="">
+        <input type="submit" value="submit" name="" onclick="alert(document.getElementById('time').value)">
+
+    </form>
+</div>
+    <h1 align="center">HTML Input Types</h1>
+
+    <!-- input type text -->
+    <h2>Text Box</h2>
+
+    <!-- input type password -->
+    <h2>Password Box</h2>
+
+    <!-- input type submit -->
+    <h2>Submit Button</h2>
+
+    <!-- input type reset -->
+    <h2>Reset Button</h2>
+
+    <!-- input type radio -->
+    <h2>Radio Field</h2>
+
+    <!-- input type checkbox -->
+    <h2>Check Box</h2>
+
+    <!-- HTML5 Input Types color, date, datetime-local, email,
+    month, number, range, search, time, url, Week-->
+
+    <h1 align="center">HTML5 Input Types</h1>
+
+    <!-- color -->
+    <h2>Input Type color</h2>
+
+    <!-- date -->
+    <h2>Input Type date</h2>
+
+    <!-- datetime-local -->
+    <h2>Input Type datetime-local</h2>
+
+    <!-- email -->
+    <h2>Input Type email</h2>
+
+    <!-- month -->
+    <h2>Input Type month</h2>
+
+    <!-- number -->
+    <h2>Input Type number</h2>
+
+    <!-- range -->
+    <h2>Input Type range</h2>
+
+    <!-- search -->
+    <h2>Input Type search</h2>
+
+    <!-- time -->
+    <h2>Input Type time</h2>
+
+    <!-- week -->
+    <h2>Input Type week</h2>
+
+
+<br><br><br>
+</body>
+</html>
